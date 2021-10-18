@@ -1,14 +1,35 @@
-Awesome-Book-Store
+# Awesome books
 
-Project Description
-A lightweight JavaScript project that allows users to interact with a fully client-based interface. Users can add books that they own to easily keep track of their list of books. The added books can be removed from the list by using the "Remove Book" button.
+The project is inspired by the figma microverse template 1 (https://figma.com/)
+For this portfolio website, I implemented Html And Css that includes the project details in mobile.
 
-Build With
-HTML
-JAVASCRIPT
-CSS
 
-Live Version Link
+![screenshot](./img/Capture.PNG)
+![screenshot](./img/cap12.PNG)
+
+ 
+
+## Live Demo
+
+[Live Demo Link](https://mwanawabangona.github.io/Awesome-books/)
+ 
+## Built With the following
+
+- HTML
+- CSS
+- HTML&CSS Linter
+
+## Get Started
+
+Please get your browser update.
+To get a local copy up and running follow these simple steps.
+
+Run the command below from the Terminal:
+
+      git clone <URL> 'https://github.com/mwanawabangona/mobile-version-2' in your terminal
+
+	  cd desktop_branch
+
 
 
 👤 **Ellis**

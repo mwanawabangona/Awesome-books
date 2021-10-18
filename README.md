@@ -1,13 +1,10 @@
 # Awesome books
 
-The project is inspired by the figma microverse template 1 (https://figma.com/)
-For this portfolio website, I implemented Html And Css that includes the project details in mobile.
+This is a Javascript project, called "Awesome Books" 
+For this portfolio website, I implemented Html, Css and Javascript, and Linters to to catch any bugs in the code.
 
 
 ![screenshot](./img/Capture.PNG)
-![screenshot](./img/IMG.png)
-
- 
 
 ## Live Demo
 
@@ -18,6 +15,7 @@ For this portfolio website, I implemented Html And Css that includes the project
 - HTML
 - CSS
 - HTML&CSS Linter
+- JAVASCRIPT
 
 ## Get Started
 
@@ -26,9 +24,9 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone <URL> 'https://github.com/mwanawabangona/mobile-version-2' in your terminal
+      git clone <URL> 'https://github.com/mwanawabangona/Awesome-books/tree/main' in your terminal
 
-	  cd desktop_branch
+	  cd Branch-A
 
 
 

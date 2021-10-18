@@ -5,7 +5,7 @@ For this portfolio website, I implemented Html And Css that includes the project
 
 
 ![screenshot](./img/Capture.PNG)
-![screenshot](./img/cap12.PNG)
+![screenshot](./img/IMG.png)
 
  
 
@@ -41,7 +41,7 @@ Run the command below from the Terminal:
 
 👤 **Denzel Nkomo**
 
-- Location: South
+- Location: South Africa
 - GitHub: [@Den-cloud](https://github.com/fDen-cloud)
 - Twitter: [@nkomo_dt](https://twitter.com/@nkomo_dt)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/farouqdaif/)

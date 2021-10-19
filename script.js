@@ -42,8 +42,8 @@ class AwesomeBooks {
       if (id % 2 === 0) {
         tr.style.backgroundColor = '#ccc';
       } else {
-          tr.style.backgroundColor = '#fff';
-        }
+        tr.style.backgroundColor = '#fff';
+      }
       const td = document.createElement('td');
       td.setAttribute('class', 'cells');
       td.innerHTML = `<span>"${book.title}" by ${book.author}</span>`;

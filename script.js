@@ -33,12 +33,16 @@ class AwesomeBooks {
 
   populateTable() {
     const tableList = document.getElementById('bookList');
-
+    let id = 1;
     this.bookArray.forEach((book) => {
       const tr = document.createElement('tr');
+      tr.setAttribute('class', 'tableRow');
+      tr.setAttribute('id', `${id}`);
+      id += 1;
+      (id % 2 === 0) ? tr.style.backgroundColor = '#ccc' : tr.style.backgroundColor = '#fff';
       const td = document.createElement('td');
-
-      td.innerHTML = `<span>${book.title}</span> by ${book.author}`;
+      td.setAttribute('class', 'cells')
+      td.innerHTML = `<span>"${book.title}" by ${book.author}</span>`;
 
       const removeButton = document.createElement('button');
       removeButton.className = 'removeButton';
@@ -47,7 +51,7 @@ class AwesomeBooks {
 
       removeButton.addEventListener('click', (e) => {
         const title = e.target.parentNode.firstChild.textContent;
-        this.removeBook(title);
+        this.removeBook(book.title);
         this.saveToLocalStorage();
         window.location.reload();
       });

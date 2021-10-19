@@ -39,9 +39,9 @@ class AwesomeBooks {
       tr.setAttribute('class', 'tableRow');
       tr.setAttribute('id', `${id}`);
       id += 1;
-      (id % 2 === 0) ? tr.style.backgroundColor = '#ccc' : tr.style.backgroundColor = '#fff';
+      (id % 2 === 0) ? (tr.style.backgroundColor = '#ccc') : (tr.style.backgroundColor = '#fff');
       const td = document.createElement('td');
-      td.setAttribute('class', 'cells')
+      td.setAttribute('class', 'cells');
       td.innerHTML = `<span>"${book.title}" by ${book.author}</span>`;
 
       const removeButton = document.createElement('button');

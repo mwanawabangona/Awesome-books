@@ -70,8 +70,8 @@ hr {
 }
 
 .removeButton {
-  -webkit-box-shadow: 7px 7px 8px -5px rgba(0,0,0,0.83); 
-  box-shadow: 7px 7px 8px -5px rgba(0,0,0,0.83);
+  -webkit-box-shadow: 7px 7px 8px -5px rgba(0, 0, 0, 0.83); 
+  box-shadow: 7px 7px 8px -5px rgba(0, 0, 0, 0.83);
 }
 
 #Add-section {
@@ -91,6 +91,6 @@ hr {
 
 #addButton {
   margin-left: auto;
-  -webkit-box-shadow: 7px 7px 8px -5px rgba(0,0,0,0.83); 
-  box-shadow: 7px 7px 8px -5px rgba(0,0,0,0.83);
+  -webkit-box-shadow: 7px 7px 8px -5px rgba(0, 0 ,0, 0.83);
+  box-shadow: 7px 7px 8px -5px rgba(0, 0, 0, 0.83);
 }

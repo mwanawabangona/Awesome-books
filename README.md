@@ -44,6 +44,13 @@ Run the command below from the Terminal:
 - Twitter: [@nkomo_dt](https://twitter.com/@nkomo_dt)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/farouqdaif/)
 
+👤 **molnar Emese**
+
+- Location: Romania
+- GitHub: [@Mesi21](https://github.com/Mesi21)
+- Twitter: [@buksimesi21](https://twitter.com/buksimesi21)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

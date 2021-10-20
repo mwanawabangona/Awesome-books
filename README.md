@@ -27,7 +27,7 @@ Run the command below from the Terminal:
 
       git clone <URL> 'https://github.com/mwanawabangona/Awesome-books/tree/main' in your terminal
 
-	  cd Branch-A
+	  cd Branch-D
 
 
 

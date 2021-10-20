@@ -169,3 +169,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.tableRow {
+  display: flex;
+  align-items: center;
+}

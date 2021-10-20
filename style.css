@@ -1,8 +1,27 @@
-.text-align-center {
-  text-align: left;
+body {
+  padding: 0;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.container {
+h1,
+h2,
+h3,
+p,
+ul,
+div,
+a,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.text-align-center {
   text-align: left;
 }
 
@@ -15,4 +34,61 @@ h3 {
     Geneva,
     Verdana,
     sans-serif;
+}
+
+hr {
+  width: 30%;
+  margin: auto;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#List-section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#bookList {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+  flex-direction: column;
+}
+
+.cells {
+  width: 97%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.removeButton {
+  box-shadow: 7px 7px 8px -5px rgba(0, 0, 0, 0.83);
+}
+
+#Add-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Add-section h3 {
+  margin: 20px 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#addButton {
+  margin-left: auto;
+  box-shadow: 7px 7px 8px -5px rgba(0, 0, 0, 0.83);
 }

@@ -57,7 +57,7 @@ hr {
   top: 0;
   background-color: rgb(4, 56, 4);
   height: 50px;
-  color: #fff
+  color: #fff;
 }
 
 .luxonDate {
@@ -75,13 +75,13 @@ hr {
   justify-content: flex-end;
 }
 
-.right ul{
+.right ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
 
-.right li:hover {
+.right li :hover {
   cursor: pointer;
   font-weight: 700;
 }
@@ -146,7 +146,7 @@ li {
   margin: auto;
 }
 
-#contactPage h1{
+#contactPage h1 {
   margin-bottom: 40px;
 }
 

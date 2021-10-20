@@ -38,6 +38,7 @@ class AwesomeBooks {
       const tr = document.createElement('tr');
       tr.setAttribute('class', 'tableRow');
       tr.setAttribute('id', `${id}`);
+      tr.style.height = '40px';
       id += 1;
       if (id % 2 === 0) {
         tr.style.backgroundColor = '#ccc';

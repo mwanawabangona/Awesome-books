@@ -56,7 +56,13 @@ hr {
   position: absolute;
   top: 0;
   background-color: rgb(4, 56, 4);
+  height: 50px;
   color: #fff
+}
+
+.luxonDate {
+  margin-top: 60px;
+  margin-left: auto;
 }
 
 .left {
@@ -73,6 +79,11 @@ hr {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+}
+
+.right li:hover {
+  cursor: pointer;
+  font-weight: 700;
 }
 
 li {
@@ -124,4 +135,37 @@ li {
 #addButton {
   margin-left: auto;
   box-shadow: 7px 7px 8px -5px rgba(0, 0, 0, 0.83);
+}
+
+#contactPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+
+#contactPage h1{
+  margin-bottom: 40px;
+}
+
+#contactPage ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(4, 97, 4);
+  color: #fff;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
 }

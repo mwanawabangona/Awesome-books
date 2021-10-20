@@ -13,16 +13,17 @@
 <body>
     <div class="navbar">
         <div class="left">
-            <h1>Awesome Books</h1>
+            <h1 id="titleAwesome">Awesome Books</h1>
         </div>
         <div class="right">
             <ul>
-                <li><a href="#List-section">List</a></li>
-                <li><a href="#Add-section">Add new</a></li>
-                <li><a>Contact</a></li>
+                <li id="listLk">List</li>
+                <li id="addLk">Add new</li>
+                <li id="contactLk">Contact</li>
             </ul>
         </div>
     </div>
+    <div id="date-time" class="luxonDate"></div>
     <div class="container">
         <h1 id="page-title">Awesome Books</h1>
 
@@ -31,7 +32,6 @@
 
             </table>
         </section>
-        <hr>
         <section id="Add-section" class="text-align-center">
             <h3>Add books</h3>
             <form id="form">
@@ -41,7 +41,7 @@
                 <input type="text" required placeholder="Author" id="book_author">
                 <br>
                 <br>
-                <input type="submit" value="Add" id="addButton">
+                <button type="submit" form="form" value="Submit" class="btn btn-success">Add</button>
             </form>
         </section>
         <section id="contactPage">
@@ -50,6 +50,7 @@
                 <p>Do you questions or you just want to say "Hello"?<br>
                    You can reach out to us!
                 </p>
+                <br>
                 <ul>
                     <li>Our e-mail: mail@mail.com</li>
                     <li>Our phone number: 0043586534422</li>
@@ -58,7 +59,13 @@
             </div>
         </section>
     </div>
+    <footer class="page-footer">
+        <p>© 2020 Copyright: </p>
+        <p>Team</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
     <script src="script.js"></script>
+    <script src="pagination.js"></script>
 </body>
 
 </html>

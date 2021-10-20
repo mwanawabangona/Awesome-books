@@ -44,7 +44,7 @@ Run the command below from the Terminal:
 - Twitter: [@nkomo_dt](https://twitter.com/@nkomo_dt)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/farouqdaif/)
 
-👤 **molnar Emese**
+👤 **Molnar Emese**
 
 - Location: Romania
 - GitHub: [@Mesi21](https://github.com/Mesi21)

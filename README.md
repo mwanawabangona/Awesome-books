@@ -4,7 +4,8 @@ This is a Javascript project, called "Awesome Books"
 For this portfolio website, I implemented Html, Css and Javascript, and Linters to to catch any bugs in the code.
 
 
-![screenshot](./img/IMG.png)
+![screenshot](./img/Screenshot.png)
+![screenshot](./img/Screenshot1.png)
 
 ## Live Demo
 
